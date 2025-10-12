@@ -1,0 +1,48 @@
+.ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 15px;
+    margin-top: 0px;
+    font-size: 25px;
+}
+
+.li{
+    margin-left: 30px;
+}
+
+.li:hover{
+    transition: 0.5s ease;
+    color: cyan ;
+}
+
+.listra{
+    border: 1px solid cyan;
+}
+
+.container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.titulo{
+    display: flex;
+    margin-left:15px ;
+}
+.p{
+    text-align: center;
+    color:darkgrey;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 4px;
+}
+
+.nome{
+    display: flexbox;
+    align-items: center;
+    margin-top: 35px;
+    margin-left: 15px;
+}
