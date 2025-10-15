@@ -12,8 +12,9 @@
 }
 
 .li:hover{
-    transition: 0.5s ease;
+    transition: 0.3s ease;
     color: cyan ;
+    transform: scale(1.02);
 }
 
 .listra{
@@ -26,7 +27,7 @@
     justify-content: space-between;
     align-items: center;
     font-weight: bold;
-    margin-top: 250px;
+    margin-top: 10px;
 }
 
 .titulo{
@@ -49,6 +50,6 @@
 }
 
 .full{
-    height: 100vh;
-    border: 1px solid white;
+    margin-top: 25px;
+    border: 1px solid green;
 }
