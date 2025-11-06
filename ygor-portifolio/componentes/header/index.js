@@ -29,6 +29,7 @@ export function Header() {
                     </nav>
 
                 </div>
+                  <Link href="Contato"><h4 className={header.con}> 📞 CONTATO </h4></Link>  
                 <br />
                 <div className={header.listra}></div>
         </header>

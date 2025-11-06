@@ -51,5 +51,14 @@
 
 .full{
     margin-top: 25px;
-    border: 1px solid green;
+}
+
+.con{
+    margin-left: 90%;
+}
+
+.con:hover{
+    transition: 0.3s ease;
+    color: cyan ;
+    transform: scale(1.02);
 }

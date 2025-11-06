@@ -1,16 +1,22 @@
 .contain{
-   background-color: rgba(173, 216, 230, 0.533);
    padding: 50px;
    border-radius: 25px;
    margin-left: 35px;
    margin-right: 35px;
    height: 100vh;
-   align-items: center;
-   justify-content: center;
 }
 
 .card{
-    border: 1px solid;
     margin: 230px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.h1{
+    margin: 10px;
+}
+
+.txt{
+    font-size:larger;
+    line-height: 1.6;
+}
+

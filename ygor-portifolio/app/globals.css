@@ -46,3 +46,10 @@ a {
 .hahai{
   text-align: center;
 }
+
+.l{ 
+    border: 1px solid cyan;
+    margin-right: 12px;
+    margin-left: 12px;
+    margin-top: 2px;
+}

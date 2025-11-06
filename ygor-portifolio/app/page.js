@@ -1,3 +1,4 @@
+import { ExperienciaA } from "@/componentes/ExperienciaA";
 import { ExperienciaP } from "@/componentes/ExperienciaP";
 import { Header } from "@/componentes/header";
 import { Sobre } from "@/componentes/sobre";
@@ -7,7 +8,8 @@ export default function Home(){
     <div>
       <Header/>
       <Sobre/>
-      <ExperienciaP/>
+      <div className="l"></div>
+      <ExperienciaA/>
     </div>
   );
 }
