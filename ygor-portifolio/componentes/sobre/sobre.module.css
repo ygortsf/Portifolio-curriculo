@@ -8,7 +8,7 @@
 }
 
 .card {
-  background: #ffffff;
+  background-color: #fff;
   max-width: 800px;
   padding: 40px 50px;
   border-radius: 20px;
@@ -37,9 +37,33 @@
   line-height: 1.8;
   text-align: justify;
   color: #334155;
+  margin-bottom: 30px;
 }
 
-/* Responsivo */
+.techList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  padding: 0;
+  list-style: none;
+}
+
+.techList li {
+  background: #3b82f6; 
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.techList li:hover {
+  transform: translateY(-3px);
+  background: #2563eb; 
+}
+
 @media (max-width: 768px) {
   .card {
     padding: 30px 25px;
@@ -51,5 +75,10 @@
 
   .txt {
     font-size: 1rem;
+  }
+
+  .techList li {
+    font-size: 0.9rem;
+    padding: 6px 12px;
   }
 }

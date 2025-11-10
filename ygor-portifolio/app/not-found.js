@@ -1,5 +1,4 @@
 
-/* Página personalizada para página não encontrada */
 
 export default function NotFound(){
     return(

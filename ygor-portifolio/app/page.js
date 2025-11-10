@@ -5,6 +5,7 @@ import { ExperienciaP } from "@/componentes/ExperienciaP";
 import { Header } from "@/componentes/header";
 import { Projetos } from "@/componentes/Projetos";
 import { Sobre } from "@/componentes/sobre";
+import { Weather } from "@/componentes/weather";
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <Header />
       <Sobre data-aos="fade-up" />
       <div className="l"></div>
+      <Weather/>
       <ExperienciaA data-aos="fade-up" />
       <div className="l"></div>
       <ExperienciaP data-aos="fade-up" />

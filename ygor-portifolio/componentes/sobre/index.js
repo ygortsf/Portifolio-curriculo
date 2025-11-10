@@ -12,7 +12,7 @@ export function Sobre() {
                     Meu objetivo é evoluir como desenvolvedor, aplicando boas práticas de código, princípios de arquitetura limpa e metodologias ágeis como Scrum, e poder também colaborar de forma efetiva na função que me for atribuída.
                 </p>
 
-                <h1 className={sobre.contain}>Tecnologias usadas para criação deste site</h1>
+                <h1 className={sobre.h1}>Tecnologias usadas para criação deste site</h1>
                 <ul className={sobre.techList}>
                     <li>Next.js</li>
                     <li>React</li>
