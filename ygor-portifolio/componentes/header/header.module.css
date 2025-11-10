@@ -53,12 +53,18 @@
     margin-top: 25px;
 }
 
-.con{
-    margin-left: 90%;
-}
 
+.con{
+    margin: 0px;
+}
 .con:hover{
     transition: 0.3s ease;
     color: cyan ;
     transform: scale(1.02);
+}
+
+.cent {
+    margin-top: 70px; 
+    margin-bottom: 50px; 
+    margin-left: 1250px;
 }
